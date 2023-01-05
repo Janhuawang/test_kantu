@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0B0D972966CA1C00E67AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0D962966CA1C00E67AC4 /* AppDelegate.swift */; };
+		DE0B0D992966CA1C00E67AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0D982966CA1C00E67AC4 /* SceneDelegate.swift */; };
+		DE0B0D9B2966CA1C00E67AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0D9A2966CA1C00E67AC4 /* ViewController.swift */; };
+		DE0B0D9E2966CA1C00E67AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0B0D9C2966CA1C00E67AC4 /* Main.storyboard */; };
+		DE0B0DA02966CA1E00E67AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0B0D9F2966CA1E00E67AC4 /* Assets.xcassets */; };
+		DE0B0DA32966CA1E00E67AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0B0DA12966CA1E00E67AC4 /* LaunchScreen.storyboard */; };
+		DE0B0DAE2966CA1E00E67AC4 /* KanTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DAD2966CA1E00E67AC4 /* KanTuTests.swift */; };
+		DE0B0DB82966CA1E00E67AC4 /* KanTuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DB72966CA1E00E67AC4 /* KanTuUITests.swift */; };
+		DE0B0DBA2966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DB92966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift */; };
+		DE0B0DC82966CE7100E67AC4 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DC72966CE7100E67AC4 /* SplashController.swift */; };
+		DE0B0DCA2966D66400E67AC4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DC92966D66400E67AC4 /* LoginController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0B0DAA2966CA1E00E67AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0B0D8B2966CA1C00E67AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0B0D922966CA1C00E67AC4;
+			remoteInfo = KanTu;
+		};
+		DE0B0DB42966CA1E00E67AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0B0D8B2966CA1C00E67AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0B0D922966CA1C00E67AC4;
+			remoteInfo = KanTu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0B0D932966CA1C00E67AC4 /* KanTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0B0D962966CA1C00E67AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0B0D982966CA1C00E67AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE0B0D9A2966CA1C00E67AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0B0D9D2966CA1C00E67AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0B0D9F2966CA1E00E67AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0B0DA22966CA1E00E67AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0B0DA42966CA1E00E67AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0B0DA92966CA1E00E67AC4 /* KanTuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanTuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0B0DAD2966CA1E00E67AC4 /* KanTuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanTuTests.swift; sourceTree = "<group>"; };
+		DE0B0DB32966CA1E00E67AC4 /* KanTuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanTuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0B0DB72966CA1E00E67AC4 /* KanTuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanTuUITests.swift; sourceTree = "<group>"; };
+		DE0B0DB92966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE0B0DC72966CE7100E67AC4 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		DE0B0DC92966D66400E67AC4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0B0D902966CA1C00E67AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DA62966CA1E00E67AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DB02966CA1E00E67AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0B0D8A2966CA1C00E67AC4 = {
+			isa = PBXGroup;
+			children = (
+				DE0B0D952966CA1C00E67AC4 /* KanTu */,
+				DE0B0DAC2966CA1E00E67AC4 /* KanTuTests */,
+				DE0B0DB62966CA1E00E67AC4 /* KanTuUITests */,
+				DE0B0D942966CA1C00E67AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0B0D942966CA1C00E67AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B0D932966CA1C00E67AC4 /* KanTu.app */,
+				DE0B0DA92966CA1E00E67AC4 /* KanTuTests.xctest */,
+				DE0B0DB32966CA1E00E67AC4 /* KanTuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0B0D952966CA1C00E67AC4 /* KanTu */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B0DC62966CE5000E67AC4 /* Controller */,
+				DE0B0D962966CA1C00E67AC4 /* AppDelegate.swift */,
+				DE0B0D982966CA1C00E67AC4 /* SceneDelegate.swift */,
+				DE0B0D9A2966CA1C00E67AC4 /* ViewController.swift */,
+				DE0B0D9C2966CA1C00E67AC4 /* Main.storyboard */,
+				DE0B0D9F2966CA1E00E67AC4 /* Assets.xcassets */,
+				DE0B0DA12966CA1E00E67AC4 /* LaunchScreen.storyboard */,
+				DE0B0DA42966CA1E00E67AC4 /* Info.plist */,
+			);
+			path = KanTu;
+			sourceTree = "<group>";
+		};
+		DE0B0DAC2966CA1E00E67AC4 /* KanTuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B0DAD2966CA1E00E67AC4 /* KanTuTests.swift */,
+			);
+			path = KanTuTests;
+			sourceTree = "<group>";
+		};
+		DE0B0DB62966CA1E00E67AC4 /* KanTuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B0DB72966CA1E00E67AC4 /* KanTuUITests.swift */,
+				DE0B0DB92966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift */,
+			);
+			path = KanTuUITests;
+			sourceTree = "<group>";
+		};
+		DE0B0DC62966CE5000E67AC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B0DC72966CE7100E67AC4 /* SplashController.swift */,
+				DE0B0DC92966D66400E67AC4 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0B0D922966CA1C00E67AC4 /* KanTu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0B0DBD2966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTu" */;
+			buildPhases = (
+				DE0B0D8F2966CA1C00E67AC4 /* Sources */,
+				DE0B0D902966CA1C00E67AC4 /* Frameworks */,
+				DE0B0D912966CA1C00E67AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanTu;
+			productName = KanTu;
+			productReference = DE0B0D932966CA1C00E67AC4 /* KanTu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0B0DA82966CA1E00E67AC4 /* KanTuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0B0DC02966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTuTests" */;
+			buildPhases = (
+				DE0B0DA52966CA1E00E67AC4 /* Sources */,
+				DE0B0DA62966CA1E00E67AC4 /* Frameworks */,
+				DE0B0DA72966CA1E00E67AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0B0DAB2966CA1E00E67AC4 /* PBXTargetDependency */,
+			);
+			name = KanTuTests;
+			productName = KanTuTests;
+			productReference = DE0B0DA92966CA1E00E67AC4 /* KanTuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0B0DB22966CA1E00E67AC4 /* KanTuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0B0DC32966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTuUITests" */;
+			buildPhases = (
+				DE0B0DAF2966CA1E00E67AC4 /* Sources */,
+				DE0B0DB02966CA1E00E67AC4 /* Frameworks */,
+				DE0B0DB12966CA1E00E67AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0B0DB52966CA1E00E67AC4 /* PBXTargetDependency */,
+			);
+			name = KanTuUITests;
+			productName = KanTuUITests;
+			productReference = DE0B0DB32966CA1E00E67AC4 /* KanTuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0B0D8B2966CA1C00E67AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DE0B0D922966CA1C00E67AC4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DE0B0DA82966CA1E00E67AC4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DE0B0D922966CA1C00E67AC4;
+					};
+					DE0B0DB22966CA1E00E67AC4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DE0B0D922966CA1C00E67AC4;
+					};
+				};
+			};
+			buildConfigurationList = DE0B0D8E2966CA1C00E67AC4 /* Build configuration list for PBXProject "KanTu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0B0D8A2966CA1C00E67AC4;
+			productRefGroup = DE0B0D942966CA1C00E67AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0B0D922966CA1C00E67AC4 /* KanTu */,
+				DE0B0DA82966CA1E00E67AC4 /* KanTuTests */,
+				DE0B0DB22966CA1E00E67AC4 /* KanTuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0B0D912966CA1C00E67AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0B0DA32966CA1E00E67AC4 /* LaunchScreen.storyboard in Resources */,
+				DE0B0DA02966CA1E00E67AC4 /* Assets.xcassets in Resources */,
+				DE0B0D9E2966CA1C00E67AC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DA72966CA1E00E67AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DB12966CA1E00E67AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0B0D8F2966CA1C00E67AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0B0DC82966CE7100E67AC4 /* SplashController.swift in Sources */,
+				DE0B0D9B2966CA1C00E67AC4 /* ViewController.swift in Sources */,
+				DE0B0D972966CA1C00E67AC4 /* AppDelegate.swift in Sources */,
+				DE0B0D992966CA1C00E67AC4 /* SceneDelegate.swift in Sources */,
+				DE0B0DCA2966D66400E67AC4 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DA52966CA1E00E67AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0B0DAE2966CA1E00E67AC4 /* KanTuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0B0DAF2966CA1E00E67AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0B0DBA2966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift in Sources */,
+				DE0B0DB82966CA1E00E67AC4 /* KanTuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0B0DAB2966CA1E00E67AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0B0D922966CA1C00E67AC4 /* KanTu */;
+			targetProxy = DE0B0DAA2966CA1E00E67AC4 /* PBXContainerItemProxy */;
+		};
+		DE0B0DB52966CA1E00E67AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0B0D922966CA1C00E67AC4 /* KanTu */;
+			targetProxy = DE0B0DB42966CA1E00E67AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0B0D9C2966CA1C00E67AC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0B0D9D2966CA1C00E67AC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0B0DA12966CA1E00E67AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0B0DA22966CA1E00E67AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0B0DBB2966CA1E00E67AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0B0DBC2966CA1E00E67AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0B0DBE2966CA1E00E67AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanTu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0B0DBF2966CA1E00E67AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanTu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0B0DC12966CA1E00E67AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanTu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanTu";
+			};
+			name = Debug;
+		};
+		DE0B0DC22966CA1E00E67AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanTu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanTu";
+			};
+			name = Release;
+		};
+		DE0B0DC42966CA1E00E67AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KanTu;
+			};
+			name = Debug;
+		};
+		DE0B0DC52966CA1E00E67AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT4NLTH9DV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.KanTuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KanTu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0B0D8E2966CA1C00E67AC4 /* Build configuration list for PBXProject "KanTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B0DBB2966CA1E00E67AC4 /* Debug */,
+				DE0B0DBC2966CA1E00E67AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0B0DBD2966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B0DBE2966CA1E00E67AC4 /* Debug */,
+				DE0B0DBF2966CA1E00E67AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0B0DC02966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B0DC12966CA1E00E67AC4 /* Debug */,
+				DE0B0DC22966CA1E00E67AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0B0DC32966CA1E00E67AC4 /* Build configuration list for PBXNativeTarget "KanTuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B0DC42966CA1E00E67AC4 /* Debug */,
+				DE0B0DC52966CA1E00E67AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0B0D8B2966CA1C00E67AC4 /* Project object */;
+}

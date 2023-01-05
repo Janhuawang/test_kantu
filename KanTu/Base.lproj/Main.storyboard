@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XkM-YJ-8Ad">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KanTu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="4"/>
+        </scene>
+        <!--Splash-->
+        <scene sceneID="xcm-bC-6FY">
+            <objects>
+                <viewController title="Splash" id="XkM-YJ-8Ad" customClass="SplashController" customModule="KanTu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zaW-9s-cy4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J8a-Xx-Y5C" userLabel="content">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ic_splash" translatesAutoresizingMaskIntoConstraints="NO" id="Pfi-c1-g7t">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="770"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022版权协议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuN-pN-qaJ">
+                                        <rect key="frame" x="128.33333333333334" y="798.66666666666663" width="103.33333333333334" height="19.333333333333371"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Pfi-c1-g7t" firstAttribute="leading" secondItem="J8a-Xx-Y5C" secondAttribute="leading" id="5uA-FJ-yya"/>
+                                    <constraint firstItem="Pfi-c1-g7t" firstAttribute="top" secondItem="J8a-Xx-Y5C" secondAttribute="top" id="Oeg-Wo-7TV"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pfi-c1-g7t" secondAttribute="bottom" id="REX-2Y-n53"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZuN-pN-qaJ" secondAttribute="bottom" id="WEs-sK-BQc"/>
+                                    <constraint firstItem="ZuN-pN-qaJ" firstAttribute="centerX" secondItem="J8a-Xx-Y5C" secondAttribute="centerX" id="evb-Qa-0zz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pfi-c1-g7t" secondAttribute="trailing" id="fny-QP-FE0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oRn-pS-PYf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oRn-pS-PYf" firstAttribute="bottom" secondItem="J8a-Xx-Y5C" secondAttribute="bottom" id="0oX-D8-sSv"/>
+                            <constraint firstItem="J8a-Xx-Y5C" firstAttribute="top" secondItem="zaW-9s-cy4" secondAttribute="top" id="Hzx-ND-967"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAs-oN-JnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-666" y="4"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="JcV-mT-Hqj">
+            <objects>
+                <viewController storyboardIdentifier="Login" title="Login" id="tS0-ur-vwP" customClass="LoginController" customModule="KanTu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZG-ki-n7C">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dro-s4-cGo">
+                                <rect key="frame" x="0.0" y="34" width="393" height="784"/>
+                                <viewLayoutGuide key="safeArea" id="bPv-0Z-OOe"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vkH-MT-5Tq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vkH-MT-5Tq" firstAttribute="bottom" secondItem="dro-s4-cGo" secondAttribute="bottom" id="B51-fr-oLP"/>
+                            <constraint firstItem="dro-s4-cGo" firstAttribute="centerY" secondItem="xZG-ki-n7C" secondAttribute="centerY" id="REL-xJ-Ryp"/>
+                            <constraint firstItem="vkH-MT-5Tq" firstAttribute="trailing" secondItem="dro-s4-cGo" secondAttribute="trailing" id="mFD-xG-CT9"/>
+                            <constraint firstItem="dro-s4-cGo" firstAttribute="leading" secondItem="vkH-MT-5Tq" secondAttribute="leading" id="z6h-cS-wg9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SBX-Uh-brZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="659"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_splash" width="360" height="780"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
