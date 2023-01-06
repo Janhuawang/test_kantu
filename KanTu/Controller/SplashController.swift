@@ -15,7 +15,7 @@ class SplashController: UIViewController {
         print("SplashController viewDidLoad")
         
         /// 延时后执行
-        DispatchQueue.main.asyncAfter(wallDeadline: .now()+3) {
+        DispatchQueue.main.asyncAfter(wallDeadline: .now()+1) {
             SceneDelegate.shared.next()
         }
     }

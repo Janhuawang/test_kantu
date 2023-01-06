@@ -18,6 +18,8 @@
 		DE0B0DBA2966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DB92966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift */; };
 		DE0B0DC82966CE7100E67AC4 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DC72966CE7100E67AC4 /* SplashController.swift */; };
 		DE0B0DCA2966D66400E67AC4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B0DC92966D66400E67AC4 /* LoginController.swift */; };
+		DEA6F18129681AC9007C6728 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F18029681AC9007C6728 /* StringExtension.swift */; };
+		DEA6F18429682054007C6728 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F18329682054007C6728 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DE0B0DB92966CA1E00E67AC4 /* KanTuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanTuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE0B0DC72966CE7100E67AC4 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		DE0B0DC92966D66400E67AC4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DEA6F18029681AC9007C6728 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DEA6F18329682054007C6728 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		DE0B0D952966CA1C00E67AC4 /* KanTu */ = {
 			isa = PBXGroup;
 			children = (
+				DEA6F1822968200F007C6728 /* Util */,
+				DEA6F17F29681A97007C6728 /* Extension */,
 				DE0B0DC62966CE5000E67AC4 /* Controller */,
 				DE0B0D962966CA1C00E67AC4 /* AppDelegate.swift */,
 				DE0B0D982966CA1C00E67AC4 /* SceneDelegate.swift */,
@@ -139,6 +145,22 @@
 				DE0B0DC92966D66400E67AC4 /* LoginController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEA6F17F29681A97007C6728 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F18029681AC9007C6728 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DEA6F1822968200F007C6728 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F18329682054007C6728 /* Constant.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA6F18429682054007C6728 /* Constant.swift in Sources */,
 				DE0B0DC82966CE7100E67AC4 /* SplashController.swift in Sources */,
 				DE0B0D9B2966CA1C00E67AC4 /* ViewController.swift in Sources */,
+				DEA6F18129681AC9007C6728 /* StringExtension.swift in Sources */,
 				DE0B0D972966CA1C00E67AC4 /* AppDelegate.swift in Sources */,
 				DE0B0D992966CA1C00E67AC4 /* SceneDelegate.swift in Sources */,
 				DE0B0DCA2966D66400E67AC4 /* LoginController.swift in Sources */,
