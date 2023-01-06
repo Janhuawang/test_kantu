@@ -20,9 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     /// 启动后的跳转逻辑
     func next(){
-        print("SceneDelegate next")
+        if PerferenceUtil.isLogin(){
+            toHome()
+        }else{
+            toLogin()
+        }
         
-        toLogin()
     }
     
     /// 跳转登录页

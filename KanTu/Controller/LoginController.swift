@@ -41,7 +41,7 @@ class LoginController: UIViewController {
             return
         }
         if password.count < 5 || password.count > 15{
-            errorLable.text = "密码格式有问题"
+            errorLable.text = "密码格式不正确(6～15位)"
             return
         }
         
@@ -50,7 +50,9 @@ class LoginController: UIViewController {
             return
         }
         
-        SceneDelegate.shared.toHome()
+        PerferenceUtil.setLoginState(true) /// 登录成功设置状态
+        
+        SceneDelegate.shared.toHome() /// 跳转到首页
                 
     }
     
