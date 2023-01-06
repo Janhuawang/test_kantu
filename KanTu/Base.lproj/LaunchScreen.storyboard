@@ -19,20 +19,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZ5-mW-nSA" userLabel="content">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ic_splash" translatesAutoresizingMaskIntoConstraints="NO" id="MGn-fz-wRc">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="770"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash" translatesAutoresizingMaskIntoConstraints="NO" id="MGn-fz-wRc">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022版权协议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVj-nP-u73">
-                                        <rect key="frame" x="145" y="739.66666666666663" width="103.33333333333331" height="19.333333333333371"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="cVj-nP-u73" firstAttribute="centerX" secondItem="MZ5-mW-nSA" secondAttribute="centerX" id="654-rZ-ezO"/>
-                                    <constraint firstAttribute="bottom" secondItem="cVj-nP-u73" secondAttribute="bottom" id="TC9-Hq-50W"/>
                                     <constraint firstAttribute="trailing" secondItem="MGn-fz-wRc" secondAttribute="trailing" id="UGN-hP-jkq"/>
                                     <constraint firstAttribute="bottom" secondItem="MGn-fz-wRc" secondAttribute="bottom" id="UJR-zd-8Cj"/>
                                     <constraint firstItem="MGn-fz-wRc" firstAttribute="top" secondItem="MZ5-mW-nSA" secondAttribute="top" id="qD5-9M-G5g"/>

@@ -15,20 +15,9 @@ class SplashController: UIViewController {
         print("SplashController viewDidLoad")
         
         /// 延时后执行
-        DispatchQueue.main.asyncAfter(wallDeadline: .now()+1) {
+        DispatchQueue.main.asyncAfter(wallDeadline: .now()+3) {
             SceneDelegate.shared.next()
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+       
 }
