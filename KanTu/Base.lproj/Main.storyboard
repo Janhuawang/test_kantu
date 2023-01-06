@@ -69,21 +69,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dro-s4-cGo">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                                <viewLayoutGuide key="safeArea" id="bPv-0Z-OOe"/>
-                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xXW-Jp-uoL">
+                                <rect key="frame" x="16" y="83.000000000000014" width="361" height="175.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F1-Mf-hEs" userLabel="title">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="25.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入账号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kHq-Eo-Usl" userLabel="Account">
+                                        <rect key="frame" x="0.0" y="35.333333333333329" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="izD-im-slj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vv8-tt-g30" userLabel="Password">
+                                        <rect key="frame" x="0.0" y="85.333333333333343" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Vyf-OD-6Cc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="my1-OK-V68" userLabel="login">
+                                        <rect key="frame" x="0.0" y="135.33333333333334" width="361" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wAI-5u-2yl"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="登录"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="登录"/>
+                                        <connections>
+                                            <action selector="onClickToLogin:" destination="tS0-ur-vwP" eventType="touchUpInside" id="jUh-LQ-Xek"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vkH-MT-5Tq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vkH-MT-5Tq" firstAttribute="bottom" secondItem="dro-s4-cGo" secondAttribute="bottom" id="B51-fr-oLP"/>
-                            <constraint firstItem="dro-s4-cGo" firstAttribute="centerY" secondItem="vkH-MT-5Tq" secondAttribute="centerY" id="REL-xJ-Ryp"/>
-                            <constraint firstItem="vkH-MT-5Tq" firstAttribute="trailing" secondItem="dro-s4-cGo" secondAttribute="trailing" id="mFD-xG-CT9"/>
-                            <constraint firstItem="dro-s4-cGo" firstAttribute="leading" secondItem="vkH-MT-5Tq" secondAttribute="leading" id="z6h-cS-wg9"/>
+                            <constraint firstItem="xXW-Jp-uoL" firstAttribute="leading" secondItem="vkH-MT-5Tq" secondAttribute="leading" constant="16" id="IkE-1o-7Yy"/>
+                            <constraint firstItem="xXW-Jp-uoL" firstAttribute="top" secondItem="vkH-MT-5Tq" secondAttribute="top" constant="24" id="aaz-eV-VmI"/>
+                            <constraint firstItem="vkH-MT-5Tq" firstAttribute="trailing" secondItem="xXW-Jp-uoL" secondAttribute="trailing" constant="16" id="jl2-GZ-fy0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ftAccount" destination="kHq-Eo-Usl" id="K8v-Rz-glZ"/>
+                        <outlet property="tfPassword" destination="Vv8-tt-g30" id="I5E-A9-2R1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBX-Uh-brZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,9 +131,6 @@
         <image name="ic_splash" width="360" height="780"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
