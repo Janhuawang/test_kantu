@@ -39,14 +39,14 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I75-R5-EPa">
-                                                            <rect key="frame" x="0.0" y="0.0" width="361" height="180"/>
+                                                            <rect key="frame" x="20" y="11" width="321" height="158"/>
                                                         </imageView>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="I75-R5-EPa" secondAttribute="trailing" id="0vy-eL-Uin"/>
-                                                        <constraint firstItem="I75-R5-EPa" firstAttribute="top" secondItem="xD2-Vj-6X9" secondAttribute="top" id="MHA-kg-JNu"/>
-                                                        <constraint firstAttribute="bottom" secondItem="I75-R5-EPa" secondAttribute="bottom" id="QhQ-fN-7WI"/>
-                                                        <constraint firstItem="I75-R5-EPa" firstAttribute="leading" secondItem="xD2-Vj-6X9" secondAttribute="leading" id="fr0-sF-YbZ"/>
+                                                        <constraint firstItem="I75-R5-EPa" firstAttribute="top" secondItem="xD2-Vj-6X9" secondAttribute="topMargin" id="ZzT-Jp-rQH"/>
+                                                        <constraint firstAttribute="bottomMargin" secondItem="I75-R5-EPa" secondAttribute="bottom" id="ica-zv-Bco"/>
+                                                        <constraint firstAttribute="trailingMargin" secondItem="I75-R5-EPa" secondAttribute="trailing" id="wx1-AE-gnz"/>
+                                                        <constraint firstItem="I75-R5-EPa" firstAttribute="leading" secondItem="xD2-Vj-6X9" secondAttribute="leadingMargin" id="zs7-5p-DnI"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
@@ -56,6 +56,9 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="PdJ-PB-4XY" firstAttribute="top" secondItem="mTv-IN-dNx" secondAttribute="bottom" id="rlZ-Gh-0ky"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -186,10 +189,10 @@
             </objects>
             <point key="canvasLocation" x="36" y="659"/>
         </scene>
-        <!--Image Detail Controller-->
+        <!--ImageDetail Scene-->
         <scene sceneID="d3H-iQ-Mqp">
             <objects>
-                <viewController storyboardIdentifier="ImageDetail" id="ruU-X3-he2" customClass="ImageDetailController" customModule="KanTu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageDetail" title="ImageDetail Scene" id="ruU-X3-he2" customClass="ImageDetailController" customModule="KanTu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E8W-5i-C6a">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,10 +218,10 @@
             </objects>
             <point key="canvasLocation" x="1727.4809160305342" y="3.5211267605633805"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--HomeNavigation-->
         <scene sceneID="1mK-CM-eTu">
             <objects>
-                <navigationController storyboardIdentifier="HomeNavi" automaticallyAdjustsScrollViewInsets="NO" id="g2f-8E-LWS" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeNavi" title="HomeNavigation" automaticallyAdjustsScrollViewInsets="NO" id="g2f-8E-LWS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3UM-Ae-ktV">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>

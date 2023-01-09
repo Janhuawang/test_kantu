@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func logoutClick(_ sender: Any) {
-        PerferenceUtil.setLoginState(true) /// 退出登录成功设置状态
+        PerferenceUtil.setLoginState(false) /// 退出登录成功设置状态
       
         SceneDelegate.shared.toLogin()
     }
