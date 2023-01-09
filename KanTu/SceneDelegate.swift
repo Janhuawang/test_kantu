@@ -35,7 +35,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     /// 跳转到主页面
     func toHome(){
-        toRoot(rootName: "Home")
+        toRoot(rootName: "HomeNavi")
     }
     
     /// 跳转到根页面

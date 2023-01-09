@@ -23,6 +23,7 @@
 		DEA6F18129681AC9007C6728 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F18029681AC9007C6728 /* StringExtension.swift */; };
 		DEA6F18429682054007C6728 /* ConstantUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F18329682054007C6728 /* ConstantUtil.swift */; };
 		DEA6F1862968241C007C6728 /* PreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F1852968241C007C6728 /* PreferenceUtil.swift */; };
+		DEF949C8296C1930008D5045 /* ImageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF949C7296C1930008D5045 /* ImageDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		DEA6F18029681AC9007C6728 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DEA6F18329682054007C6728 /* ConstantUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantUtil.swift; sourceTree = "<group>"; };
 		DEA6F1852968241C007C6728 /* PreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceUtil.swift; sourceTree = "<group>"; };
+		DEF949C7296C1930008D5045 /* ImageDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				DE0B0DC72966CE7100E67AC4 /* SplashController.swift */,
 				DE0B0DC92966D66400E67AC4 /* LoginController.swift */,
+				DEF949C7296C1930008D5045 /* ImageDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				DEA6F1862968241C007C6728 /* PreferenceUtil.swift in Sources */,
 				DE942FDB296C098B004F5698 /* LableCell.swift in Sources */,
 				DE0B0D972966CA1C00E67AC4 /* AppDelegate.swift in Sources */,
+				DEF949C8296C1930008D5045 /* ImageDetailController.swift in Sources */,
 				DE0B0D992966CA1C00E67AC4 /* SceneDelegate.swift in Sources */,
 				DE0B0DCA2966D66400E67AC4 /* LoginController.swift in Sources */,
 			);

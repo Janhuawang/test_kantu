@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         for index in 1...20{
-            dataArray.append("\(index)hahahahha")
+            dataArray.append("\(index%5)")
         }
         
         tableView.delegate = self
@@ -38,10 +38,18 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! LableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ImageCell
         let data = dataArray[indexPath.row]
         cell.bind(data)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "ImageDetail") as! ImageDetailController
+        
+        controller.id = dataArray[indexPath.row]
+        
+        navigationController?.pushViewController(controller, animated: true)
     }
     
 }
